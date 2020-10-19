@@ -1,0 +1,281 @@
+/* General CSS */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  padding: 60px;
+  margin: 0;
+}
+
+h6{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 600;
+  color: black;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 600;
+  color: black;
+}
+
+h5{
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 600;
+  color: black;
+}
+
+h6{
+  font-family: 'Poppins', sans-serif;  
+  font-weight: 600;
+  color: black;
+}
+
+h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  align-content: center;
+  color: darkgray;
+}
+
+/* Navbar */
+
+.navbar-brand{
+    color: white;
+    font-size:1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+  }
+
+ul{
+  margin-right: 10%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+  font-size: 18px;
+  margin-left: 6px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#005fb3;
+}
+/* NAVBAR CSS ENDS */
+
+/* HEADER CSS STARTS */
+.headtext{
+  position: absolute;
+  /* z-index: 1; */
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50);
+}
+/* HEADER CSS ENDS */
+
+/* ABOUT US CSS */
+.backcard{
+  width: 400px;
+  height: 300px;
+  background-color: #005fb3;
+  position: relative;
+  z-index: -1;
+  margin-top: -370px;
+  margin-left: -22px;
+}
+
+.card4{
+  width: 80%;
+  border-radius: 30px 30px 0 0;
+  z-index: 3;
+}
+
+.backcard1{
+  width: 80%;
+  height: 10%;
+  background-color: #005fb3;
+  border-radius: 30px 30px 0 0;
+  z-index: 2;
+  position: relative;
+  margin-top: -120px;
+}
+
+/* CATEGORY CSS START */
+
+.card2{
+  margin-left: 10px;
+  width: 250px;
+  padding: 10px;
+}
+
+.serviceicon{
+  width: 20%; 
+  height: 50%; 
+  display: block; 
+}
+
+.ellipse{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  background-color: #375981;
+  border-radius: 100% 0% 0% 0%;
+}
+
+.arrow{
+  position: relative;
+  margin-top: 23px;
+  margin-left: 20px;
+}
+
+/* CATEGORY CSS END */
+
+/* ANALYSE CSS START */
+
+.card3{
+  padding: 15px;
+  border: none;
+}
+
+.card3:hover{ 
+  background-color: #0cc4ef;
+  cursor: pointer;
+}
+
+.card3:hover #title{
+  color: white;
+}
+
+.card3:hover #text{
+  color: white;
+}
+
+.icon1{
+  display: inline;
+}
+
+.card-title{
+  color: #49b2cb;
+  display: inline;
+}
+
+.card-text{
+  text-align: left;
+}
+
+
+.analyseicon{
+  margin-right: 10px;
+}
+
+.analysetext{
+  margin-left: 10px;
+}
+
+.i1{
+  height: 80%;
+}
+
+/* ANALYSE CSS END */
+
+/* FACTS CSS STARTS */
+.facttext{
+  color: white;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* FACTS CSS ENDS */
+
+/* BLOG CSS START */
+.card1{
+  padding: 10px;
+  position: relative;
+  width: 90%;
+  max-width: 90%;
+  border-radius: 10px;
+  z-index: 1;
+  margin-top: -50px;
+  cursor: pointer;
+}
+
+.title1{
+  color: black;
+}
+
+.card1:hover{
+  background-color: #005fb3;
+}
+
+.card1:hover #text1{
+  color: white;
+}
+
+.card1:hover #title1{
+  color: white;
+}
+/* BLOG CSS END */
+
+/* TEAM CSS START */
+#t2{
+  color: black;
+}
+
+#te{
+  color: gray;
+}
+
+.card5:hover{
+  background-color: #005fb3;
+}
+.card5:hover #cardim{
+  transform: scaleY(1.2);
+  cursor: pointer;
+}
+
+.card5:hover #t2{
+  color: white;
+}
+
+.card5:hover #te2{
+  color: white;
+}
+/* TEAM CSS ENDS */
+
+/* CONTACT CSS STARTS */
+input{
+  width: 270px;
+  background-color: white;
+  border-radius: 20px;
+  /* padding: 10px 20px; */
+  padding-left: 20px;
+  border: none;
+  height: 40px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  margin-left: -100px;
+  background-color: #73cfed;
+  color: white;
+}
+/* CONTACT CSS ENDS */
